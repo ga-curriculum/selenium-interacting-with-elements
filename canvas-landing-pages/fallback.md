@@ -4,23 +4,20 @@
   <span class="headline">Finding Elements Using Selenium</span>
 </h1>
 
-tktk Add some default course navigation content here. This landing page will be used when a student's course cannot be determined, so don't include any course-specific details.
+## About
+
+This hands-on module teaches students how to locate and interact with elements on a web page using Selenium. Students will explore practical locator strategies—primarily using CSS selectors—and apply them to real-world examples written in local .html files. The focus is on translating DevTools exploration into reliable automation code
 
 ## Content
 
-| Lesson                                               | Est. Delivery Time | Skills                              |
-| ---------------------------------------------------- | :----------------: | ----------------------------------- |
-| [Setup](../setup/README.md)                          |         --         | Set up the development environment. |
-| [Concepts](../concepts/README.md)                    |         --         | tktk Skills covered.                |
-| [tktk Microlesson Name](../microlesson-01/README.md) |         --         | tktk Skills covered.                |
-| **Total content**                                    |         --         |                                     |
-
-## Level Up content
-
-| Lesson                                               | Est. Delivery Time | Skills               |
-| ---------------------------------------------------- | :----------------: | -------------------- |
-| [tktk Microlesson Name](../microlesson-02/README.md) |         --         | tktk Skills covered. |
-| **Total Level Up content**                           |         --         |                      |
+| Lesson                                                                                    | Est. Delivery Time | Skills Covered                                                                                                                     |
+| ----------------------------------------------------------------------------------------- | :----------------: | ---------------------------------------------------------------------------------------------------------------------------------- |
+| [Setup](../setup/README.md)                                                               |       5 min        | Set up the development environment.                                                                                                |
+| [Using Basic Locators](../using-basic-locators/README.md)                                 |       15 min       | Locate elements by ID, class, and tag name.                                                                                        |
+| [Building Stable CSS Selectors](../building-stable-css-selectors/README.md)               |       30 min       | Create reliable CSS selectors using attributes, nesting, and specificity.                                                          |
+| [Interacting with Web Elements](../interacting-with-web-elements/README.md)               |       30 min       | Interact with elements using click, input, and text extraction.                                                                    |
+| [Introduction to XPath for Edge Cases](../introduction-to-xpath-for-edge-cases/README.md) |       10 min       | Recognize when to apply simple XPath expressions in edge cases (such as by text or structure), and why CSS is generally preferred. |
+| **Total content**                                                                         |       90 min       |                                                                                                                                    |
 
 ## References
 
