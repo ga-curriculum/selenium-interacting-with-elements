@@ -1,21 +1,22 @@
 <h1>
   <span class="prefix"></span>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Finding Elements Using Selenium</span>
 </h1>
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module.
+This hands-on module teaches students how to locate and interact with elements on a web page using Selenium. Students will explore practical locator strategies—primarily using CSS selectors—and apply them to real-world examples written in local .html files. The focus is on translating DevTools exploration into reliable automation code
 
 ## Content
 
-| Lesson | Est. Delivery Time | Skills |
-| ------ |:------------------:| ------ |
-| [Setup](./setup/README.md)                          | -- | Set up the development environment. |
-| [Concepts](./concepts/README.md)                    | -- | tktk Skills to cover                |
-| [tktk Microlesson Name](./microlesson-01/README.md) | -- | tktk Skills to cover                |
-| [tktk Microlesson Name](./microlesson-02/README.md) | -- | tktk Skills to cover                |
-| **Total content**                                   | -- |                                     |
+| Lesson                                                                                   | Est. Delivery Time | Skills Covered                                                                                                                     |
+| ---------------------------------------------------------------------------------------- | :----------------: | ---------------------------------------------------------------------------------------------------------------------------------- |
+| [Setup](./setup/README.md)                                                               |       5 min        | Set up the development environment.                                                                                                |
+| [Using Basic Locators](./using-basic-locators/README.md)                                 |       15 min       | Locate elements by ID, class, and tag name.                                                                                        |
+| [Building Stable CSS Selectors](./building-stable-css-selectors/README.md)               |       30 min       | Create reliable CSS selectors using attributes, nesting, and specificity.                                                          |
+| [Interacting with Web Elements](./interacting-with-web-elements/README.md)               |       30 min       | Interact with elements using click, input, and text extraction.                                                                    |
+| [Introduction to XPath for Edge Cases](./introduction-to-xpath-for-edge-cases/README.md) |       10 min       | Recognize when to apply simple XPath expressions in edge cases (such as by text or structure), and why CSS is generally preferred. |
+| **Total content**                                                                        |       90 min       |                                                                                                                                    |
 
 ## References
 
@@ -25,32 +26,12 @@ tktk Write a short but descriptive summary of the content in this module.
 
 ### Prerequisites
 
-- tktk
-- tktk
-- tktk
-
-### Starter code
-
-tktk If there is not a starter code repo that students will use to start this lesson, then this section and all of its content should be removed.
-
-🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
-
-### Solution code
-
-tktk If there is not solution code related to this module this section and all of its content should be removed.
-
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
-
-### Deployed site
-
-tktk If there is not a deployed site related to this module this section and all of its content should be removed.
-
-🌐 [Live site](https://generalassemb.ly/tktk)
+- Introduction to Selenium
 
 ### Course landing pages
 
-- [tktk-course-acronym - tktk Course Full Name](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/tktk-course-acronym.html)
-- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/fallback.html)
+- [PTR - Python Testing & Reliability](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/finding-elements-using-selenium/canvas-landing-pages/ptr.html)
+- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/finding-elements-using-selenium/canvas-landing-pages/fallback.html)
 
 ### Resources
 

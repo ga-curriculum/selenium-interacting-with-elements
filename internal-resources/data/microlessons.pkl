@@ -9,23 +9,30 @@ setup = new Template.Microlesson {
   videoUrl = ""
 }
 
-concepts = new Template.Microlesson {
-  friendlyName = "Concepts"
-  dirName = "concepts"
+usingBasicLocators = new Template.Microlesson {
+  friendlyName = "Using Basic Locators"
+  dirName = "using-basic-locators"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson01 = new Template.Microlesson {
-  friendlyName = "Microlesson 01"
-  dirName = "microlesson-01"
+buildingStableCssSelectors = new Template.Microlesson {
+  friendlyName = "Building Stable CSS Selectors"
+  dirName = "building-stable-css-selectors"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson02 = new Template.Microlesson {
-  friendlyName = "Microlesson 02"
-  dirName = "microlesson-02"
+interactingWithWebElements = new Template.Microlesson {
+  friendlyName = "Interacting with Web Elements"
+  dirName = "interacting-with-web-elements"
+  type = "Content"
+  videoUrl = ""
+}
+
+introductionToXpathForEdgeCases = new Template.Microlesson {
+  friendlyName = "Introduction to XPath for Edge Cases"
+  dirName = "introduction-to-xpath-for-edge-cases"
   type = "Content"
   videoUrl = ""
 }
