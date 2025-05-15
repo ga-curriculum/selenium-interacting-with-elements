@@ -304,8 +304,8 @@ driver.quit()
 
 Once everything is set up, you should be able to:
 
-- Open index.html in Chrome
-- Run test_flight_page.py
+- Open `index.html` in Chrome
+- Run `test_flight_page.py`
 - See a browser open and then close with no errors
 
 If you do, you're ready to move on to element targeting and interaction!

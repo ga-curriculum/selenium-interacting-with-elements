@@ -27,7 +27,7 @@ button           /* All <button> elements */
 
 > 🏆 Use your browser’s DevTools to test these selectors and observe which elements they match. This helps you verify your logic before integrating selectors into your automation script.
 
-## Combining tag names and classes for precise element selection
+## Combining `tag` names and `classes` for precise element selection
 
 Often, selecting by tag name or class is too broad. By combining these, you can create more accurate and less error-prone selectors.
 
@@ -48,7 +48,7 @@ login_button = driver.find_element(By.CSS_SELECTOR, "button.primary")
 nav_links = driver.find_elements(By.CSS_SELECTOR, "nav.main-menu a")
 ```
 
-## Incorporating attribute selectors to refine targeting
+## Incorporating `attribute` selectors to refine targeting
 
 At times, tag and class information are not enough—especially when elements on a page look similar or their classes change with style updates. _Attribute selectors_ allow you to target elements based on particular characteristics, such as `type`, `placeholder`, or custom data attributes.
 
@@ -74,7 +74,7 @@ submit_button = driver.find_element(By.CSS_SELECTOR, 'button[data-action="submit
 
 > 💡 Attribute selectors are especially valuable on dynamic pages or frameworks where styling classes change frequently but data attributes remain stable.
 
-## Understanding and applying descendant and child selectors
+## Applying `descendant` and `child` selectors
 
 Webpages are naturally nested—menus contain links, lists contain items, forms contain inputs. CSS provides two key patterns for matching elements within these structures:
 
@@ -99,7 +99,7 @@ menu_items = driver.find_elements(By.CSS_SELECTOR, "ul.menu > li")
 login_inputs = driver.find_elements(By.CSS_SELECTOR, "form#login-form input")
 ```
 
-## Techniques for creating unique and reliable selectors for automation
+## Creating unique and reliable selectors for automation
 
 Writing a functional selector is just the start. In automation, the best selectors are:
 
@@ -143,7 +143,7 @@ With a partner, write a CSS selector for each of the following:
 - Select the **header element** containing the FalconAir title.
 - Target the **login form's submit button**, but only if it's nested inside the `#login-form`.
 
-💡 Use Chrome DevTools: press Cmd+F or Ctrl+F in the Elements panel to test your selector. It should highlight the exact element(s) you're targeting.
+💡 Use Chrome DevTools: press `Cmd+F` or `Ctrl+F` in the Elements panel to test your selector. It should highlight the exact element(s) you're targeting.
 
 ## Strategies to maintain selector stability amidst page updates
 
