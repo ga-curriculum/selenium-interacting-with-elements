@@ -12,9 +12,9 @@ import "microlessons.pkl" as mls
 
 repo {
   // This name is shown in the header nav to navigate users home
-  friendlyName = "Finding Elements Using Selenium"
+  friendlyName = "Selenium: Interacting with Elements"
   // This must match the repo name as it appears on GitHub exactly
-  name = "finding-elements-using-selenium"
+  name = "selenium-interacting-with-elements"
   type = "Lesson"
 }
 

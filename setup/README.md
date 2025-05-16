@@ -1,5 +1,5 @@
 <h1>
-  <span class="headline">Finding Elements Using Selenium</span>
+  <span class="headline">Selenium: Interacting with Elements</span>
   <span class="subhead">Setup</span>
 </h1>
 
@@ -10,8 +10,8 @@ In this lesson, you’ll start fresh with a new project just for testing element
 Open a terminal and run:
 
 ```bash
-mkdir finding-elements-using-selenium
-cd finding-elements-using-selenium
+mkdir selenium-interacting-with-elements
+cd selenium-interacting-with-elements
 ```
 
 ### 2: Set Up a Virtual Environment
@@ -56,7 +56,7 @@ pip show selenium
 
 ### 4: Create Your Project Files
 
-Inside your `finding-elements-using-selenium` folder, create the following files:
+Inside your `selenium-interacting-with-elements` folder, create the following files:
 
 - `test_flight_page.py`
 - `index.html`
@@ -284,8 +284,8 @@ service = Service(executable_path=chromedriver_path)
 driver = webdriver.Chrome(service=service)
 
 # Replace with the full path to your index.html file
-# Example (macOS): "file:///Users/yourname/Desktop/finding-elements-using-selenium/index.html"
-# Example (Windows): "file:///C:/Users/yourname/Desktop/finding-elements-using-selenium/index.html"
+# Example (macOS): "file:///Users/yourname/Desktop/selenium-interacting-with-elements/index.html"
+# Example (Windows): "file:///C:/Users/yourname/Desktop/selenium-interacting-with-elements/index.html"
 driver.get("file:///absolute/path/to/index.html")
 
 

@@ -1,6 +1,6 @@
 <h1>
   <span class="prefix"></span>
-  <span class="headline">Finding Elements Using Selenium</span>
+  <span class="headline">Selenium: Interacting with Elements</span>
 </h1>
 
 ## About
@@ -26,12 +26,12 @@ This hands-on module teaches students how to locate and interact with elements o
 
 ### Prerequisites
 
-- Introduction to Selenium
+- Selenium: Intro to Browser Automation
 
 ### Course landing pages
 
-- [PTR - Python Testing & Reliability](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/finding-elements-using-selenium/canvas-landing-pages/ptr.html)
-- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/finding-elements-using-selenium/canvas-landing-pages/fallback.html)
+- [PTR - Python Testing & Reliability](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/selenium-interacting-with-elements/canvas-landing-pages/ptr.html)
+- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/selenium-interacting-with-elements/canvas-landing-pages/fallback.html)
 
 ### Resources
 

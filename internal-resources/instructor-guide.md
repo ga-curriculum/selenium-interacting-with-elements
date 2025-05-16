@@ -1,5 +1,5 @@
 <h1>
-  <span class="headline">Finding Elements Using Selenium</span>
+  <span class="headline">Selenium: Interacting with Elements</span>
   <span class="subhead">Instructor Guide</span>
 </h1>
 
@@ -92,8 +92,6 @@ for card in flight_cards:
     book_text = card.find_element(By.CLASS_NAME, "book-btn").text
     print(f"{flight_title} | ID: {flight_id} | Button: {book_text}")
 ```
-
-
 
 ---
 

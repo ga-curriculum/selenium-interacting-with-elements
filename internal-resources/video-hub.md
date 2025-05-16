@@ -1,5 +1,5 @@
 <h1>
-  <span class="headline">Finding Elements Using Selenium</span>
+  <span class="headline">Selenium: Interacting with Elements</span>
   <span class="subhead">Video Hub</span>
 </h1>
 

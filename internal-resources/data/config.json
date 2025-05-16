@@ -4,8 +4,8 @@
     "name": "modular-curriculum-all-courses"
   },
   "repo": {
-    "friendlyName": "Finding Elements Using Selenium",
-    "name": "finding-elements-using-selenium",
+    "friendlyName": "Selenium: Interacting with Elements",
+    "name": "selenium-interacting-with-elements",
     "type": "Lesson",
     "about": "",
     "starterCode": "",
